@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+
+.container-searchbar{
+display:flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+
+}
+.searchbar{
+  width: 60%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border:none;
+  position:relative;
+  background:rgb(243, 239, 239) ;
+  
+  
+}
+.magnifying-glass{
+  position:absolute;
+  left:10;
+  height: 20px;
+}
+.searchbar-input{
+  background-color: transparent;
+  border:none;
+  width: 90%;
+  margin-left: 30px;
+}
+.btn-search{
+  background: rgb(225, 69, 69);
+  color:#fff;
+  padding: 10px ;
+  border:none;
+  margin-left: auto;
+}
+.log-btn{width: 10%;}
+.join-btn{width: 10%;}
+.npm{max-width:60px;}
+
+
+.cabecera {
+  color: black;
+  font-size: 90px;
+  text-align: center;
+  position: static;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+.cabecera2 {
+  text-align: center;
+  position: static;
+margin:0;
+}
+.see-plans {
+ border: 3px solid;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ width: 50%;
+ padding: 10px 0;
+ background: #fb3e44 ;
+ color:#fff;
+ text-align: center;
+}
+.container-cabecera2{width: fit-content; margin:0 auto; display: flex; justify-content: center;flex-direction: column; align-items: center; border: none; }
+
+.container-btns{
+  width: 100%; ;
+  display:flex;
+  margin-top: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.join {
+  border:none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 50%;
+  background: #fff ;
+  text-align: center;
+  padding: 10px 0;
+}
+.hexagon{
+  width: 250px;
+  margin:0 auto;
+}
+.section-2-container{
+  display: flex;
+  width: fit-content;
+  margin:0 auto; 
+  margin-top: 50px;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-section-2{
+  font-size: 40px;
+  background-color: rgb(234, 223, 128);
+  margin-bottom: 5;
+  font-style: italic;
+  transform: skew(9deg,0deg);
+}
+.text-section-2{
+text-align: center;
+}
+.zero-configuration {
+  width: 25px;
+  margin:0 auto;
+}
+.team-management {
+  width: 25px;
+  margin:0 auto;
+}
+.familiar-features{
+  width: 25px;
+  margin:0 auto;
+}
+.npm-audit {
+  width: 25px;
+  margin:0 auto;
+}
+.create {
+  border: 3px solid;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ width: 50%;
+ padding: 10px 0;
+ background: #fb3e44 ;
+ color:#fff;
+ text-align: center;
+}
+#general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  }
+  #section-3 {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    font-size: 5px;
+    padding: 10px 30
+    
+    }
+    .zero-configuration {
+      flex-direction: row;
+      justify-content: space-around;
+   
+    
+    }
+    .team-management {
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+    .familiar-features {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .npm-audit {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .create {
+      border: 3px solid;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      width: 15%;
+      padding: 10px 0;
+      background: black;
+      color: #fff;
+      text-align:center;
+    }
+   h4 {
+     color: red;
+   }
+   .column-section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 25%;
+     padding: 10px;
+     text-align: center;
+   }
+   .column-text{
+    margin: 0;
+    margin-top: 10px;
+  }
+  .create-btn{
+   display: flex;
+   justify-content: center;
+    margin: 0 auto;
+  }
+  .container-hero{
+    width: 98%;
+    margin:0 auto;
+    background-color:rgba(232,217,217,.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+  }
